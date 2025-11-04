@@ -335,7 +335,7 @@ const SubmitPropertyModal: React.FC<SubmitPropertyModalProps> = ({ isOpen, onClo
                     <div key={index} className="relative">
                       <img
                         src={URL.createObjectURL(file)}
-                        alt={`Upload ${index + 1}`}
+                        alt={`Upload ₹{index + 1}`}
                         className="w-full h-24 object-cover rounded-lg"
                       />
                       <button
@@ -467,7 +467,7 @@ const SubmitPropertyModal: React.FC<SubmitPropertyModalProps> = ({ isOpen, onClo
             <div className="w-full bg-gray-200 rounded-full h-2">
               <div 
                 className="bg-emerald-500 h-2 rounded-full transition-all duration-300"
-                style={{ width: `${(currentStep / 4) * 100}%` }}
+                style={{ width: `₹{(currentStep / 4) * 100}%` }}
               ></div>
             </div>
           </div>

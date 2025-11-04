@@ -65,7 +65,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property, onViewDetails }) 
         
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-emerald-600">
-            ${property.price.toLocaleString()}
+            ₹{property.price.toLocaleString()}
           </div>
           <button 
             onClick={() => onViewDetails(property)}

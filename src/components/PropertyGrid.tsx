@@ -62,7 +62,7 @@ const PropertyGrid: React.FC<PropertyGridProps> = ({ properties }) => {
                 <button
                   key={i + 1}
                   onClick={() => paginate(i + 1)}
-                  className={`px-4 py-2 rounded-lg font-semibold transition-all ${
+                  className={`px-4 py-2 rounded-lg font-semibold transition-all ₹{
                     currentPage === i + 1
                       ? 'bg-emerald-500 text-white'
                       : 'bg-white text-gray-700 hover:bg-gray-100'

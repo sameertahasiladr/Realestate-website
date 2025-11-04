@@ -83,7 +83,7 @@ const Hero: React.FC = () => {
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-3 h-3 rounded-full transition-all ${
+              className={`w-3 h-3 rounded-full transition-all ₹{
                 index === currentSlide ? 'bg-emerald-500' : 'bg-white/30'
               }`}
             />

@@ -27,7 +27,7 @@ const PropertyModal: React.FC<PropertyModalProps> = ({ property, isOpen, onClose
             <X className="h-6 w-6 text-gray-600" />
           </button>
           <div className="absolute bottom-4 left-4 bg-emerald-500 text-white px-4 py-2 rounded-full text-lg font-bold">
-            ${property.price.toLocaleString()}
+            ₹{property.price.toLocaleString()}
           </div>
         </div>
 
