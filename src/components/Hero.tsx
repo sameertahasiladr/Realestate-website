@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
               </div>
               
               <div className="absolute bottom-4 right-4 bg-emerald-500 text-white px-6 py-3 rounded-lg shadow-lg">
-                <div className="text-2xl font-bold">€ {currentProperty?.price?.toLocaleString() || "132,000"}</div>
+                <div className="text-2xl font-bold">₹ {currentProperty?.price?.toLocaleString() || "132,000"}</div>
                 <div className="text-sm opacity-90">{currentProperty?.type || "Penthouse Apartment"}</div>
               </div>
             </div>
