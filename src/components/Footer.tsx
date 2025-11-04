@@ -12,10 +12,10 @@ import { Home, MapPin, Building, Key, Facebook, Twitter, Instagram, Linkedin } f
               <span className="text-xl font-bold">RealEstate</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Exceptional sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum incididunt.
+              Exceptional are those who blind themselves with desires and do not advance; they are at fault for abandoning their duties, which weakens the soul, that is, for the hardships that fall upon them.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia consequuntur magni dolores.
+              Nor is there anyone who loves, pursues, or wishes to attain pain itself not because it is pain, but because great pains follow.
             </p>
           </div>
 
@@ -34,11 +34,11 @@ import { Home, MapPin, Building, Key, Facebook, Twitter, Instagram, Linkedin } f
           <div>
             <h3 className="text-lg font-semibold mb-6">Locations</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Bucharest</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Constanta</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Brasov</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Cluj-Napoca</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Craiova</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Karnataka</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Mumbai</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Goa</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Delhi</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors flex items-center"><MapPin className="h-4 w-4 mr-2" />Gujrat</a></li>
             </ul>
           </div>
 
